@@ -11,7 +11,11 @@ function App() {
 	return(
 		<BrowserRouter>
 			<div className="App">
+				
 				<div id="nav">
+					<div id="name">
+						<h3>Matthew Baldivino</h3>
+					</div>
 					<table align="right">
 						<tr>
 							<th>
@@ -22,6 +26,11 @@ function App() {
 							<th>
 								<Link className="nav-text" to="#skills" smooth>
 									Skills
+								</Link>
+							</th>
+							<th>
+								<Link className="nav-text" to="#projects" smooth>
+									Projects
 								</Link>
 							</th>
 							<th>

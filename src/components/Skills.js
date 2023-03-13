@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function Skills(){
 	return(
-		<div className="p-3 h-auto d-inline-block" id="skills">
+		<div className="p-3 h-auto d-inline-block" id="skills-div">
 			<Container>
 				<h1 className="center-text skills-header">Skills</h1>
 				<Row>
@@ -16,12 +16,12 @@ function Skills(){
 						as part of classwork and my own projects.</p>
 					</Col>
 					<Col>
-						<img id="pfp" className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/1183/1183669.png"/>
+						<img className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/1183/1183669.png"/>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<img id="pfp" className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/919/919852.png"/>
+						<img className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/919/919852.png"/>
 					</Col>
 					<Col>
 						<h3 className="center-text skill-title">Python</h3>
@@ -38,14 +38,14 @@ function Skills(){
 						three languages with libraries such as React and frameworks like Bootstrap.</p>
 					</Col>
 					<Col>
-						<img id="pfp" className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/2085/2085263.png"/>
+						<img className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/2085/2085263.png"/>
 						
 					</Col>
 
 				</Row>
 				<Row>
 					<Col>
-						<img id="pfp" className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/919/919825.png"/>
+						<img className="center skill-pic" src="https://cdn-icons-png.flaticon.com/512/919/919825.png"/>
 					</Col>
 					<Col>
 						<h3 className="center-text skill-title">Node.js</h3>

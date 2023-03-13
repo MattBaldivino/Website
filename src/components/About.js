@@ -8,11 +8,11 @@ function About(){
 		<div className="p-3 h-auto d-inline-block" id="about">
 			<Container>
       				<Row>
-        				<Col>
+        				<Col>				
 						<img id="pfp" className="center" src="https://media.licdn.com/dms/image/C4E03AQFIhN0CG8-CWg/profile-displayphoto-shrink_800_800/0/1647712640614?e=2147483647&v=beta&t=dbH8S3mo41WMYeZMEheNzH8l5BFh5OVYYyN7WxvFjO0"/>
 					</Col>
         				<Col>
-						<div>
+						<div id="about-text">
 							<h2 >Matthew Baldivino</h2>
 							<h3 >Cal Poly Pomona, Class of 2025, Computer Science Major</h3>
 							<p>

@@ -2,25 +2,42 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Body from "./Body";
-import NavigationBar from "./NavigationBar";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
+
 
 function App() {
 	return(
-		<div className="App">
-			<Router>
-				<NavigationBar />
-				<Switch>
-					{/* NOTE: replace this with smoothscrolling navbar!! */}
-                			<Route path='/' component={Footer}/>
-                			<Route path='/' component={Footer}/>
-           		 	</Switch>
-			</Router>
-			<Header />
-			<Body />
-			
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<div className="App">
+				<div id="nav">
+					<table align="right">
+						<tr>
+							<th>
+								<Link className="nav-text" to="#header" smooth>
+									About
+								</Link>
+							</th>
+							<th>
+								<Link className="nav-text" to="#skills" smooth>
+									Skills
+								</Link>
+							</th>
+							<th>
+								<Link className="nav-text" to="#contact" smooth>
+									Contact
+								</Link>
+							</th>
+						</tr>
+					</table>
+				</div>
+				
+				<Header />
+				<Body />
+				<Footer />
+			</div>
+		</BrowserRouter>
 	)
 }
 

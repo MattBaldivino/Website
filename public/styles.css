@@ -1,11 +1,40 @@
 p{
 	font-size: 20px;
 }
-footer{
-	position:absolute;
-	left:0;
-	bottom:0;
-	right:0;
+table{
+	margin-top: 10px;
+	margin-right: 10px
+}
+th{
+	padding: 8px;
+}
+
+
+
+a:link {
+	text-decoration: none;
+	color:#FFB84C;
+ }
+ 
+ a:visited {
+	text-decoration: none;
+	color:antiquewhite;
+ }
+ 
+ a:hover {
+	text-decoration: none;
+	color:#FFB84C;
+ }
+ 
+ a:active {
+	text-decoration: none;
+	color:#FFB84C;
+ }
+
+
+
+.App{
+	background-color: #FEFFDE;
 }
 .center-text{
 	text-align: center;
@@ -16,8 +45,49 @@ footer{
 	margin-right: auto;
 	width: 100%;
 }
+.footer-div{
+	overflow: auto;
+	height: 100px;
+	background-color: #FEFFDE;
+}
+.footer-text{
+	margin-top: 30px;
+}
+.skill-title{
+	margin: 80px 0px 20px 0px;
+}
+.skill-pic{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.skills-header{
+	margin: 80px 0px 40px 0px;
+}
+
+
 #pfp{
 	max-width: 50%;
 	height: auto;
 	border-radius: 50%;
+}
+#nav{
+	overflow: auto;
+	margin-bottom: 30px;
+	background-color: #91C788;
+	position: sticky;
+	top: 0;
+}
+#about{
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#skills{
+	min-width: 100%;
+	overflow: auto;
+	background-color: #52734D;
+	color:antiquewhite;
+}
+#header{
+	margin: 80px 0px 40px 0px;
 }

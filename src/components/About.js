@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function About(){
 	return(
-		<div className=" w-auto p-3 h-auto d-inline-block">
+		<div className="p-3 h-auto d-inline-block" id="about">
 			<Container>
       				<Row>
         				<Col>

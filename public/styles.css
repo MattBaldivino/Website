@@ -1,0 +1,23 @@
+p{
+	font-size: 20px;
+}
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.center-text{
+	text-align: center;
+}
+.center{
+	display: block;
+	margin-left: 40%;
+	margin-right: auto;
+	width: 100%;
+}
+#pfp{
+	max-width: 50%;
+	height: auto;
+	border-radius: 50%;
+}

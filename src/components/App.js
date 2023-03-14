@@ -24,12 +24,12 @@ function App() {
 								</Link>
 							</th>
 							<th>
-								<Link className="nav-text" to="#skills" smooth>
+								<Link className="nav-text" to="#skills-div" smooth>
 									Skills
 								</Link>
 							</th>
 							<th>
-								<Link className="nav-text" to="#projects" smooth>
+								<Link className="nav-text" to="#project-div" smooth>
 									Projects
 								</Link>
 							</th>

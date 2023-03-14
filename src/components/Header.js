@@ -1,11 +1,30 @@
 import React from "react";
+import Typewriter from 'typewriter-effect';
 
 function Header(){
 	return(
 		<div id="header">
-			<h1 className="center-text header">
-				About Me
-			</h1>
+			<Typewriter
+				onInit={(typewriter) => {
+				typewriter.typeString("I'm Matt,")
+				.pauseFor(2500)
+				.deleteAll()
+				typewriter.typeString("A programmer,")
+				.pauseFor(2500)
+				.deleteAll()
+				typewriter.typeString("A web developer,")
+				.pauseFor(2500)
+				.deleteAll()
+				typewriter.typeString("And a student.")
+				.pauseFor(2500)
+				.deleteAll()
+				.pauseFor(2500)
+				.start();
+				}}
+				options={{
+					loop: true
+				}}
+			/>
 		</div>
 		
 	)

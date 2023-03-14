@@ -19,22 +19,22 @@ function App() {
 					<table align="right">
 						<tr>
 							<th>
-								<Link className="nav-text" to="#header" smooth>
+								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text" to="#header" smooth>
 									About
 								</Link>
 							</th>
 							<th>
-								<Link className="nav-text" to="#skills-div" smooth>
+								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text" to="#skills-div" smooth>
 									Skills
 								</Link>
 							</th>
 							<th>
-								<Link className="nav-text" to="#project-div" smooth>
+								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text" to="#project-div" smooth>
 									Projects
 								</Link>
 							</th>
 							<th>
-								<Link className="nav-text" to="#contact" smooth>
+								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text" to="#contact" smooth>
 									Contact
 								</Link>
 							</th>

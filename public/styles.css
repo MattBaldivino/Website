@@ -19,12 +19,25 @@ h2{
 h3{
 	font-family: 'IBM Plex Mono', monospace;
 }
+label{
+	display: block;
+	width: 100%;
+}
+input{
+	display: block;
+	width: 100%;
+}
+textarea{
+	display: block;
+	width: 100%;
+}
 
 
 
 
 .App{
 	background-color: #FEFFDE;
+	min-height: 100%;
 }
 .nav-text:link{
 	text-decoration: none;
@@ -35,11 +48,11 @@ h3{
 	color:antiquewhite;
 }
 .nav-text:hover{
-	color:#FFB84C;
+	color:#fdac34;
 }
 .nav-text:active{
 	text-decoration: none;
-	color:antiquewhite;
+	color:#fdac34;
 }
 .typeWriterText {
 	font-size: 100px;
@@ -93,20 +106,30 @@ h3{
 	overflow: auto;
 	height: 100%;
 	width: 50%;
-	background-color: #FEFFDE;
-	padding: auto 0px auto 40px;
+	background-color: #52734D;
+	padding: auto 0px 0px 40px;
+	color: #FEFFDE
+}
+.contact-div{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	padding: 20px;
+	color: #FEFFDE;
 }
 .footer-text{
 	margin-top: 30px;
+}
+.links{
+	max-width: 3%;
+	max-height: 3%;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .main-slide{
 	padding-top: 30px;
 }
-
-
-
-
 #pfp{
 	max-width: 70%;
 	height: auto;
@@ -139,7 +162,7 @@ h3{
 	padding-top: 50px;
 	overflow: hidden;
 	background-color: #FEFFDE;
-	margin: 0px 0px 40px 0px;
+	margin: 0px 0px 100px 0px;
 }
 #header{
 	margin: 0px 0px 40px 0px;
@@ -178,4 +201,21 @@ h3{
 	background: #91C788;
 	color: black;
 	font-family: 'PT Sans', sans-serif;
+}
+#button{
+	width: 15%;
+}
+#link-div{
+	background: #FEFFDE;
+	overflow: auto;
+	height: 100%;
+	color: black;
+}
+#link-text{
+	margin-bottom: 0px;
+}
+#send{
+	max-height: 5%;
+	max-width: 5%;
+	margin-top: 10px;
 }

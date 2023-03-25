@@ -19,7 +19,7 @@ function App() {
 					<table align="right">
 						<tr>
 							<th>
-								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text" to="#header" smooth>
+								<Link style={{fontFamily: 'IBM Plex Mono'}} className="nav-text " to="#header" smooth>
 									About
 								</Link>
 							</th>
